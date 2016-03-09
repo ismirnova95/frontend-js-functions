@@ -1,4 +1,4 @@
-﻿var arr1 = [9, 6, 5, 51, 100];   
+﻿var arr1 = [10.5, 45, 55.2, 100, 66, 99];   
 var a = arr1[0];   
 var i;     
 var index = 0; 
@@ -9,8 +9,8 @@ function min(arr1) {
     if (a > arr1[i]){   
       a = arr1[i];   
     } 
-      if (typeof arguments[index] === 'number') { 
-      result = result + arguments[index]; 
+      if (typeof arr1[i] === 'number') { 
+      result = result + arr1[1]; 
       }    
   }    
   return a;   
@@ -24,8 +24,8 @@ function max(arr1) {
     if (a < arr1[i]){   
       a = arr1[i];   
     }  
-        if (typeof arguments[index] === 'number') { 
-      result = result + arguments[index]; 
+        if (typeof arr1[i] === 'number') { 
+      result = result + arr1[i]; 
         }    
   }    
   return a;   
